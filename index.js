@@ -2,8 +2,6 @@ import crypto from 'crypto';
 
 import * as ed from '@noble/ed25519';
 import {decodeBase58, encodeBase58, solidityPackedKeccak256, AbiCoder, keccak256} from "ethers";
-import { log } from 'console';
-import base58 from 'base-58';
 
 global.crypto = crypto;
 
